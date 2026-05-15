@@ -19,9 +19,9 @@
 }
 #level-4 {
      grid-template-columns: repeat(4, 1fr);
-     .peas{ grid-column: span 2}
+     .peas{ grid-area: 1/1/2/3}
      .onions{ grid-row: span 2}
-     .tomatoes{grid-row: span 2}
+     .carrots {grid-area: 1/4/3/-1}
 
 }
 #level-5 {
